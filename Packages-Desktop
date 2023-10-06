@@ -1,0 +1,155 @@
+>extra adapta-maia-theme
+alsa-firmware
+alsa-utils
+>extra apparmor
+autoconf
+automake
+avahi
+>extra baobab
+binutils
+bison
+>extra brasero
+>extra dconf-editor
+ deepin-album
+ deepin-calculator
+deepin-desktop-base-manjaro
+deepin-calendar
+ deepin-camera
+deepin-clipboard
+deepin-compressor
+>extra deepin-draw
+>extra deepin-diskmanager
+deepin-editor
+deepin-file-manager
+libreoffice-fresh
+>extra dde-device-formatter
+>extra deepin-font-manager
+deepin-gtk-theme
+deepin-icon-theme-manjaro
+ deepin-image-viewer
+deepin-kwin
+deepin-wm
+ deepin-movie
+ deepin-mail
+ deepin-music
+ deepin-picker
+ deepin-printer
+deepin-polkit-agent
+ evince
+ deepin-screen-recorder
+ deepin-screenshot
+ deepin-screensaver
+lightdm
+deepin-session-shell
+lightdm-deepin-greeter
+ deepin-sound-theme
+deepin-shortcut-viewer
+ deepin-system-monitor
+deepin-turbo
+deepin-terminal
+deepin-turbo
+ deepin-voice-note
+deepin-wallpapers-manjaro
+deepin-wallpapers-temp-fix
+>extra deluge
+dmidecode
+>extra downgrade
+fakeroot
+firefox
+flex
+>extra gcc
+>extra gimp
+ git
+grub-theme-manjaro
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra gstreamer
+gufw
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+hexchat
+htop
+inxi
+>extra jre8-openjdk
+>extra jre8-openjdk-headless
+>multilib lib32-flex
+>extra libdvdcss
+>extra libimobiledevice
+libtool
+KERNEL-headers # needed for deepin-anything and its vfs_monitor dkms-module...
+m4
+make
+manjaro-alsa
+manjaro-browser-settings
+manjaro-application-utility
+>extra manjaro-documentation-en
+manjaro-hello
+manjaro-hotfixes
+>extra manjaro-printer
+manjaro-pulse
+manjaro-settings-manager-notifier
+mesa-demos
+mlocate
+mobile-broadband-provider-info
+modemmanager
+>multilib lib32-mesa-demos
+netctl
+neofetch
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns
+ntp
+onboard
+openresolv
+pamac
+>extra pamac-snap-plugin
+patch
+>extra patchutils
+pkg-config
+>extra poppler-data
+>extra powertop
+>extra pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+>extra redshift
+
+>basic squashfs-tools
+>extra subversion
+>extra sushi
+syslog-ng
+terminus-font
+>extra timeshift
+>extra ttf-bitstream-vera
+>extra ttf-dejavu
+>extra ttf-droid
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+ ttf-liberation
+>extraxcursor-breeze
+#xdg-su
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+xorg-twm
+xorg-xinit
+>extra xsane
+>extra xsane-gimp
+xdg-user-dirs
+xorg-xhost
+xorg-server
+yay
+zensu
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+vim
