@@ -24,7 +24,6 @@ Github: [GitHub - wiwyil2tr/manjarodeepiniso: latest Manjaro Deepin iso ](https:
 File name: manjaro-deepin-23.0.3-231005-linux61.iso
 Size: 3.9GB
 
-Download Link: [Click here in Firefox Browser to Download](https://download-cdn.123pan.cn/123-386/aadcd09a/1813490079-0/aadcd09aed0802c47c05dc91d9894982/c-m16?v=5&t=1696649124&s=16966491240fee5a9d0b14d042045353bcc077cfc9&r=EKRNBO&bzc=1&bzs=1813490079&filename=manjaro-deepin-23.0.3-231005-linux61.iso&x-mf-biz-cid=516f6826-9789-46d9-9c29-f7de33a36dd9-a0d664&auto_redirect=0&xmfcid=24835f58-77fd-4d67-a6fb-fdbcec43e76b-1-9eed82220) (Click the "redirect_url"  to download)
+Download Link: [Link](https://media-lnly-fy-person.lnoss.ctyunxs.cn/PERSONCLOUD/9545e0c0-bf71-4e6d-aab2-86c7d4c8de73.iso?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=0Lg7dAq3ZfHvePP8DKEU&x-amz-userLevel=0&x-amz-limitrate=51200&x-amz-UID=300000654642825&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22manjaro-deepin-23.0.3-231005-linux61.iso%22%3Bfilename*%3DUTF-8%27%27manjaro-deepin-23.0.3-231005-linux61.iso&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=Zpb0uoQwET4EVcgJ6eUh2oxcBFI%3D&x-amz-SHID=1247717481745&Expires=1696620839&x-amz-FSIZE=4172220416&x-amz-UFID=52313192716486341) 
 (Download from the new Link, Old Images have been deleted!)
-![Screenshot_20231006_112943](https://github.com/wiwyil2tr/manjarodeepiniso/assets/108447154/ee61d100-d757-4c44-8992-58b7b929c8ac)
 
