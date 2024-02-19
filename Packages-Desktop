@@ -1,16 +1,99 @@
->extra adapta-maia-theme
+## Network
+avahi
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+networkmanager-l2tp
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+usb_modeswitch
+
+## Libraries for Sound/Audio/Video
 alsa-firmware
 alsa-utils
->extra apparmor
-autoconf
-automake
-avahi
->extra baobab
-binutils
-bison
->extra brasero
->extra dconf-editor
- deepin-album
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libcanberra
+>multilib lib32-libcanberra
+libdvdcss
+manjaro-alsa
+manjaro-gstreamer
+>extra manjaro-modem
+manjaro-pipewire
+phonon-qt5-gstreamer
+
+## Btrfs
+grub-btrfs
+>extra timeshift-autosnap-manjaro
+
+## Connect Packages
+kamera
+mtpfs
+udiskie
+udisks2
+
+## Fonts
+ttf-dejavu
+# cantarell-fonts        # Installed as gnome-themes-standard dependency
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+extra noto-fonts-emoji
+terminus-font
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Package management
+#>extra appimagelauncher
+pamac-gtk3
+pamac-tray-icon-plasma
+pamac-cli
+#>extra apparmor
+#>extra snapd
+#>extra snapd-glib
+#>extra pamac-snap-plugin
+>extra pamac-flatpak-plugin
+#discover-snap
+#discover
+packagekit-qt5
+>extra fwupd 
+#octopi
+#octopi-cachecleaner
+#octopi-repoeditor
+#octopi-notifier-frameworks
+#pamac-qt
+#manjaro-application-utility
+
+## Printing
+>extra manjaro-printer
+>extra gtk3-print-backends
+
+## Optional dependencies for hplip
+>extra python-pillow
+>extra python-pip
+>extra python-pyqt5
+>extra python-reportlab
+
+## Optional dependencies for print-manager
+>extra system-config-printer  # auto-detect the printer driver
+>extra python-pysmbc          # SMB browser support
+
+
+## DDE
+deepin
+deepin-album
  deepin-calculator
 deepin-desktop-base-manjaro
 deepin-calendar
@@ -21,8 +104,6 @@ deepin-compressor
 >extra deepin-diskmanager
 deepin-editor
 deepin-file-manager
-libreoffice-fresh
->extra dde-device-formatter
 >extra deepin-font-manager
 deepin-gtk-theme
 deepin-icon-theme-manjaro
@@ -35,11 +116,9 @@ deepin-wm
  deepin-picker
  deepin-printer
 deepin-polkit-agent
- evince
  deepin-screen-recorder
  deepin-screenshot
  deepin-screensaver
-lightdm
 deepin-session-shell
 lightdm-deepin-greeter
  deepin-sound-theme
@@ -51,105 +130,70 @@ deepin-turbo
  deepin-voice-note
 deepin-wallpapers-manjaro
 deepin-wallpapers-temp-fix
->extra deluge
-dmidecode
->extra downgrade
-fakeroot
-firefox
-flex
->extra gcc
->extra gimp
- git
+lightdm
+lightdm-deepin-greeter
 grub-theme-manjaro
->extra gst-libav
->extra gst-plugins-bad
->extra gst-plugins-base
->extra gst-plugins-good
->extra gst-plugins-ugly
->extra gstreamer
-gufw
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
-hexchat
+redshift
+vim
+
+
+
+## Applications
+>extra elisa
+dmidecode # for inxi -m output
+firefox
 htop
 inxi
->extra jre8-openjdk
->extra jre8-openjdk-headless
->multilib lib32-flex
->extra libdvdcss
->extra libimobiledevice
-libtool
-KERNEL-headers # needed for deepin-anything and its vfs_monitor dkms-module...
-m4
-make
-manjaro-alsa
-manjaro-browser-settings
-manjaro-application-utility
->extra manjaro-documentation-en
+libreoffice-still
 manjaro-hello
-manjaro-hotfixes
->extra manjaro-printer
-manjaro-pulse
-manjaro-settings-manager-notifier
-mesa-demos
-mlocate
-mobile-broadband-provider-info
-modemmanager
->multilib lib32-mesa-demos
-netctl
+manjaro-application-utility
+manjaro-settings-manager-kcm
+manjaro-settings-manager-knotifier
+plasma-systemmonitor
+powertop
+#>extra qbittorrent
 neofetch
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-nss-mdns
-ntp
-onboard
-openresolv
-pamac
->extra pamac-snap-plugin
-patch
->extra patchutils
-pkg-config
->extra poppler-data
->extra powertop
->extra pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-zeroconf
->extra redshift
+systemd-kcm
+plymouth-kcm
+#>extra thunderbird
+>extra vlc
+yakuake
 
->basic squashfs-tools
->extra subversion
->extra sushi
-syslog-ng
-terminus-font
->extra timeshift
->extra ttf-bitstream-vera
->extra ttf-dejavu
->extra ttf-droid
->extra ttf-inconsolata
->extra ttf-indic-otf
- ttf-liberation
->extraxcursor-breeze
-#xdg-su
-xdg-utils
+## Documentation
+#manjaro-documentation-en
+
+## Settings packages
+manjaro-browser-settings
+
+## Xorg Input Drivers
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 xf86-input-void
+
+## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-utils
+>multilib lib32-mesa-utils
+numlockx
+xdg-user-dirs
+xorg-server
 xorg-twm
 xorg-xinit
->extra xsane
->extra xsane-gimp
-xdg-user-dirs
-xorg-xhost
-xorg-server
-yay
-zensu
-noto-fonts
-noto-fonts-cjk
-noto-fonts-emoji
-vim
+xorg-xkill
+xorg-mkfontscale
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+>extra timeshift
+#>extra kernel-alive
+power-profiles-daemon
+
+## Misc
+>basic squashfs-tools
