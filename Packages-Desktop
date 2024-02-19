@@ -38,7 +38,7 @@ grub-btrfs
 >extra timeshift-autosnap-manjaro
 
 ## Connect Packages
-kamera
+
 mtpfs
 udiskie
 udisks2
@@ -48,7 +48,7 @@ ttf-dejavu
 # cantarell-fonts        # Installed as gnome-themes-standard dependency
 noto-fonts               # default font
 noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-extra noto-fonts-emoji
+noto-fonts-emoji
 terminus-font
 >extra ttf-inconsolata
 >extra ttf-indic-otf
@@ -109,7 +109,6 @@ deepin-gtk-theme
 deepin-icon-theme-manjaro
  deepin-image-viewer
 deepin-kwin
-deepin-wm
  deepin-movie
  deepin-mail
  deepin-music
@@ -147,14 +146,11 @@ inxi
 libreoffice-still
 manjaro-hello
 manjaro-application-utility
-manjaro-settings-manager-kcm
 manjaro-settings-manager-knotifier
-plasma-systemmonitor
 powertop
 #>extra qbittorrent
 neofetch
-systemd-kcm
-plymouth-kcm
+
 #>extra thunderbird
 >extra vlc
 yakuake
