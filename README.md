@@ -15,7 +15,7 @@ unzip manjaro-deepin.zip
 
 This should automatically extract the iso from all the files.
 
-## Latest version(23.0.3): 231005
+## Latest version(23.0.3): 240220
 
 New Manjaro Deepin iso image released with new DDE Desktop
 
@@ -26,10 +26,11 @@ New Manjaro Deepin iso image released with new DDE Desktop
 
 Main content of this update:
 * Update Manjaro system to the latest
-* New Deepin Desktop Environment
-* Replace deepin-wm with deepin-kwin
-* Fixed problem where pop up messages just appear as a blurry outline
-* Fixed problem where wallpaper options briefly appeared and disappeared, causing the dock to vanish. 
+* Fixed problem where the file manager required manual refreshing to display content.
+
+## Update frequency changed
+Unfortunately, my external hard drive is damaged and cannot be repaired. Due to limited space on my computer, I can only reduce the update frequency and may not synchronize the ISO image after a big update. A new image will not be released until the official release of Deepin23. The interval between releasing new images will be at least 3 months. However, if there are no big updates after 3 months of a image release (excluding updates during this period), a new image will not be created. The new image will be released after a big update.
+
 
  Notice: The password for livecd user "manjaro" is ``manjaro``
 
