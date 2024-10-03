@@ -58,7 +58,6 @@ terminus-font
 ## Package management
 #>extra appimagelauncher
 pamac-gtk3
-pamac-tray-icon-plasma
 pamac-cli
 #>extra apparmor
 #>extra snapd
@@ -104,7 +103,7 @@ deepin-compressor
 >extra deepin-diskmanager
 deepin-editor
 deepin-file-manager
->extra deepin-font-manager
+ deepin-font-manager
 deepin-gtk-theme
 deepin-icon-theme-manjaro
  deepin-image-viewer
@@ -144,6 +143,7 @@ firefox
 htop
 inxi
 libreoffice-still
+kdeconnect
 manjaro-hello
 manjaro-application-utility
 manjaro-settings-manager-knotifier
