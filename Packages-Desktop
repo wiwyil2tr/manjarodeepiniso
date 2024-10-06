@@ -94,7 +94,7 @@ packagekit-qt5
 deepin
 deepin-album
  deepin-calculator
-deepin-desktop-base-manjaro
+evince
 deepin-calendar
  deepin-camera
 deepin-clipboard
@@ -105,11 +105,13 @@ deepin-editor
 deepin-file-manager
  deepin-font-manager
 deepin-gtk-theme
-deepin-icon-theme-manjaro
  deepin-image-viewer
 deepin-kwin
  deepin-movie
- deepin-mail
+deepin-menu
+deepin-launchpad
+deepin-dock
+ thunderbird
  deepin-music
  deepin-picker
  deepin-printer
@@ -126,12 +128,13 @@ deepin-turbo
 deepin-terminal
 deepin-turbo
  deepin-voice-note
-deepin-wallpapers-manjaro
-deepin-wallpapers-temp-fix
+deepin-community-wallpapers
+deepin-wallpapers
 lightdm
 lightdm-deepin-greeter
 grub-theme-manjaro
 redshift
+systemsettings
 vim
 
 
@@ -146,14 +149,13 @@ libreoffice-still
 kdeconnect
 manjaro-hello
 manjaro-application-utility
-manjaro-settings-manager-knotifier
 powertop
 #>extra qbittorrent
 neofetch
 
 #>extra thunderbird
 >extra vlc
-yakuake
+
 
 ## Documentation
 #manjaro-documentation-en
