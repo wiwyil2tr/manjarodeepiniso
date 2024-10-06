@@ -8,7 +8,7 @@ The isos bigger than certain threshold are provided in multipart zip files becau
 or run
 
 ```
-cat manjaro-deepin-23.0.3-231005-linux61.iso.z** > manjaro-deepin.zip
+cat manjaro-deepin-24.0.1-241005-linux61.iso.z** > manjaro-deepin.zip
 unzip manjaro-deepin.zip
 
 ```
