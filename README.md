@@ -1,3 +1,9 @@
+## To Manjaro Deepin Users:
+Thank you all for your support for this project! Since the release of Deepin 25, DDE has become relatively unstable, and each update has caused issues. I encountered many problems while trying to build the new version of Manjaro Deepin, including but not limited to dependency issues, graphical interface startup failures, crashes, and installation failures. I have made multiple adaptations but still faced many minor issues. Additionally, previous versions of Manjaro Deepin cannot be directly upgraded and require a complete reinstall of the system, making it unsuitable for a stable working environment. Therefore, **I have decided to abandon the Manjaro Deepin project and shift my focus to LXQt,** which is also a previously discontinued branch. Starting today, **I am restarting the Manjaro LXQt project and will be creating iso images for Manjaro LXQt**. I hope everyone will enjoy it, and stay tuned!
+https://github.com/wiwyil2tr/manjaro-lxqt
+wiwyil2tr
+Feb, 2026
+
 latest Manjaro Deepin ISO image download<br>
 See: https://github.com/wiwyil2tr/manjarodeepiniso/releases
 
